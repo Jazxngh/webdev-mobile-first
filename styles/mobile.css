@@ -60,3 +60,27 @@ body {
     color: #fff;
     padding: 8px 0;
   }
+  form > div {
+    margin: 15px 0;
+  }
+
+  label {
+    display: block;
+  }
+
+  input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+}
+
+input[type="submit"] {
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+  }
+  
